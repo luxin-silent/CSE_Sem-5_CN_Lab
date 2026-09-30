@@ -7,7 +7,6 @@ A simple C application using Linux **Raw Sockets** (`AF_PACKET`) to capture, par
 ## Files in this Directory
 
 - [`packet_capture.c`](file:///home/luxin_silent/Lab_Works/CSE_Sem-5_CN_Lab/Solutions/10_Raw_Socket_Packet_Capture/packet_capture.c) - C source code for the raw socket packet capturer.
-- [`Makefile`](file:///home/luxin_silent/Lab_Works/CSE_Sem-5_CN_Lab/Solutions/10_Raw_Socket_Packet_Capture/Makefile) - Build script to compile and run the project easily.
 - [`README.md`](file:///home/luxin_silent/Lab_Works/CSE_Sem-5_CN_Lab/Solutions/10_Raw_Socket_Packet_Capture/README.md) - Step-by-step execution and analysis instructions.
 
 ---
@@ -23,14 +22,6 @@ cd /home/luxin_silent/Lab_Works/CSE_Sem-5_CN_Lab/Solutions/10_Raw_Socket_Packet_
 ---
 
 ## Step 2: Compile the Code
-
-Compile using the provided `Makefile`:
-
-```bash
-make
-```
-
-*Alternatively, compile manually with `gcc`:*
 
 ```bash
 gcc -Wall -o packet_capture packet_capture.c
