@@ -60,11 +60,10 @@ sudo apt update && sudo apt install build-essential git -y
 Open your favorite terminal and clone this repo onto your system:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/CSE_Sem-5_CN_Lab.git
+git clone https://github.com/luxin-silent/CSE_Sem-5_CN_Lab.git
 cd CSE_Sem-5_CN_Lab
 ```
 
-*(Replace `YOUR_USERNAME` with the actual GitHub username/repo URL!)*
 
 ---
 
@@ -114,12 +113,9 @@ Raw sockets talk directly to the network interface card, which means the Linux k
 ```bash
 cd "Solutions/10_Raw_Socket_Packet_Capture"
 
-# Option A: Using the included Makefile
-make
+gcc -Wall -o packet_capture packet_capture.c
 sudo ./packet_capture
 
-# Option B: Quick run with Makefile macro
-make run
 ```
 
 ---
